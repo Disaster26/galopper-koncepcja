@@ -276,7 +276,9 @@ address{font-style:normal;color:#3c4045;margin-bottom:18px}
 
 /* 29.10: logo producenta prowadzi do jego oferty / konfiguratora */
 .marki-info{text-align:center;font-size:.9rem;color:#5b6168;margin:-.4rem auto 1.2rem;max-width:46rem;padding:0 16px}
-.marki-lista a{display:flex;align-items:center;justify-content:center;border-radius:8px;padding:6px;transition:background-color .15s ease,transform .15s ease}
+.marki-lista a{display:flex;align-items:center;justify-content:center;width:100%;height:100%;box-sizing:border-box;border-radius:8px;padding:4px;transition:background-color .15s ease,transform .15s ease}
 .marki-lista a:hover,.marki-lista a:focus-visible{background:#eef3f6}
 .marki-lista a:active{transform:scale(.97)}
 .kafel-marki a{color:inherit;text-decoration:underline}
+.marki-lista a img{width:100%;max-width:100%}
+.marki-lista li:hover img,.marki-lista a:focus-visible img{filter:none;opacity:1}
